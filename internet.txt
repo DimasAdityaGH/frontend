@@ -1,0 +1,24 @@
+-bagaimana cara kerja internet
+cara kerja internet adalah dengan memanfaatkan alamat ip yang menjadi penghubung antara server-server diseluruh dunia
+internet menggunaka model klien server yang sama dengan protokol internet
+
+
+-apa itu http 
+http singakatan dari hypertext transfer protocol, http adalah sebuah protokol jaringan lapisan aplikasi yang digunakan untuk sistem informasi terdistribusi, kolaboratif, dan menggunakan hipermedia
+
+-cara kerja browser
+1. user meminta kepada browser dengan mengetikan domain website contoh (google.com)
+2. browser menerima permintaan dari user dan akan melakukan fetching/pengambilan data pada dns server
+3. data yang telah diambil dari ip dari dns yang diketikan user
+4. next browser mengakses ke server dengan ip yang telah didapatkan dari dns
+5. selanjutnya browser memberikan data konten dari dns/ip yang user ketikan dalam bentuk html css php js
+6. setelah itu browser menampilkan konten yang sesuai dengan permintaan user
+
+-apa itu dns
+dns singakatan dari domain name sistem , dns adalah sebuah sistem yang mengubah URL website ke dalam bentuk ip addres. tanpa DNS, anda harus mengetikan ip addres secara lengkap ketika ingin mengunjungi sebuah website
+
+-apa itu nama domain
+domain adalah nama sebuah alamat yang ditunjukan untuk mengidentifikasi suatu server komputer... domain itu sangat penting dan diperlukan karena sebagai alamat suat website
+
+-apa itu hosting 
+hosting adalah sebuah layanan online digunakan untuk mengelola data situs atau aplikasi web oleh pengguna dan ditampilkan melalui via internet. file website yang tersimpan didalam hosting berupa gambar, script, video, email, aplikasi, dan database (basis data)
