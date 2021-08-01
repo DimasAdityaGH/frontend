@@ -40,7 +40,6 @@ attribut html:
 -attribut memeberikan informasi tambahan tentang elemen
 -attribut selalu ditentukan ditag awal
 -attribut biasanya datang dalam pasangan nama/nilai seperti: nama="nilai"
-
 Ringkasan Bab attribut
 Semua elemen HTML dapat memiliki atribut
 The hrefatribut <a>Menentukan URL halaman link pergi ke
@@ -52,3 +51,6 @@ The langatribut dari <html>tag menyatakan bahasa halaman Web
 The titleatribut mendefinisikan beberapa informasi tambahan tentang elemen
 
 
+heading
+<h1> mendefinisikan judul penting
+<h6> mendefinisikan judul tidak penting
