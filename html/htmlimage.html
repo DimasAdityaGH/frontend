@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html image</title>
+    <style>
+        img {
+            width: 30%;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- images
+    <img src="../picture/pict1.jpg" alt="pp" width="150px">
+    <img src="../picture/pict1.jpg" alt="pp2" style="width: 200px; float: right;">
+    <!-- link dalam gambar -->
+    <!-- <a href="">
+        <img src="../picture/if.png" alt="" style="width: 200px;" title="link dalam gambar">
+    </a> --> 
+    <!-- image map -->
+    <img src="../picture/laptop.jpg" alt="image map" usemap="#codingmap">
+    <map name="codingmap">
+        <!-- lebar + tinggi + lebar + tinggi  -->
+        <area shape="rect" coords="157, 39, 387, 331" href="dasar.html" alt="laptop" title="laptop">
+        <!-- lebar + tinggi + lebar + tinggi  -->
+        <area shape="rect" coords="403, 162, 449, 236" href="" alt="hp" title="hp">
+        <!-- lebar + tinggi & jari jari -->
+        <area shape="circle" coords="455, 287, 44" href="" alt="" title="kopi"> 
+    </map>
+
+   <img src="../picture/frenchfood.jpg" alt="" usemap="#roti">
+   <map name="roti">
+        <!-- lebar + tinggi + lebar + tinggi  -->
+       <area shape="poly" title="frenchfood" onclick="myFunction()" coords="169, 146, 215, 141, 231, 170, 241, 186, 248, 224, 250, 279, 232, 319, 245, 347, 199, 373, 187, 377 , 160, 404, 147, 408, 125, 420, 61, 425, 47, 367, 52, 292, 72, 252, 109, 216, 125 , 188, 156, 175" href="" alt="">
+   </map>   
+   <script>
+       function myFunction() {
+           alert("you click frenchfood")
+       }
+   </script>
+</body>
+</html>
