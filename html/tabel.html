@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabel</title>
+    <style>
+        table {
+            width: 100%;
+            text-align: center;
+            border-spacing: 5px;
+        }
+
+        th {
+            color: yellow;
+        }
+
+        th, td {
+            padding: 5px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+
+</head>
+<body style="background-color: green;">
+    <table>
+        <caption><h1>table sederhana</h1></caption>
+        <tr>
+            <th>nama</th>
+            <th>nomor</th>
+            <th>kelas</th>
+            <th>umur</th>
+            <th>desa</th>
+        </tr>
+        <tr>
+            <td>dimas</td>
+            <td>10</td>
+            <td>12</td>
+            <td>17</td>
+            <td>tejoasri</td>
+        </tr>
+        <tr>
+            <td>fifi</td>
+            <td>02</td>
+            <td>12</td>
+            <td>16</td>
+            <td>banyubang</td>
+        </tr>
+    </table>
+    <br>
+    <table style="width: 100%">
+        <caption><h2>colspan</h2></caption>
+        <tr>
+            <th>nama</th>
+            <th colspan="2">telepon</th>
+        </tr>
+        <tr>
+            <td>dimas</td>
+            <td>09090</td>
+            <td>00909</td>
+        </tr>
+    </table>
+    <br>
+
+    <table>
+        <caption><h2>rowspan</h2></caption>
+        <tr>
+            <th>nama</th>
+            <td>aditya</td>
+        </tr>
+        <tr>
+           <th rowspan="2">nomor</th>
+           <td>008080</td>
+        </tr>
+        <tr>
+            <td>090909</td>
+        </tr>
+    </table>
+    <br>
+    <table id="ch">
+        <caption><h2>challange</h2></caption>
+        <tr>
+            <td>1,1</td>
+            <td>1,2</td>
+            <td>1,3</td>
+            <td>1,4</td>
+        </tr>
+        <tr>
+            <td>2,1</td>
+            <td colspan="2" rowspan="2">2,2</td>
+            <td>2,4</td>
+        </tr>
+        <tr>
+            <td>3,1</td>
+            <td>3,2</td>
+        </tr>
+        <tr>
+            <td>4,1</td>
+            <td>4,2</td>
+            <td>4,3</td>
+            <td>4,4</td>
+        </tr>
+    </table>
+
+    <br>
+    <table style="width: 40%" id="ch">
+        <caption><h2>challange</h2></caption>
+        <tr>
+            <td>1,1</td>
+            <td>1,2</td>
+            <td>1,3</td>
+            <td>1,4</td>
+        </tr>
+        <tr>
+            <td>2,1</td>
+            <td colspan="2" rowspan="2">2,2</td>
+            <td>2,4</td>
+        </tr>
+        <tr>
+            <td>3,1</td>
+            <td>3,4</td>
+        </tr>
+        <tr>
+            <td>4,1</td>
+            <td>4,2</td>
+            <td>4,3</td>
+            <td>4,4</td>
+        </tr>
+    </table>
+<br>
+    <table>
+        <tr>
+            <th>nama</th>
+            <th colspan="2">nomor</th>
+        </tr>
+        <tr>
+            <td>jon</td>
+            <td>0909</td>
+            <td>99</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>nama</th>
+            <td>dimas</td>
+        </tr>
+        <tr>
+            <th rowspan="2">nomor</th>
+            <td>09090</td>
+        </tr>
+        <tr>
+            <td>99898</td>
+        </tr>
+    </table>
+</body>
+</html>
